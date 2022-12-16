@@ -1,13 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Index from './src/screen/Index';
-import Welcome from './src/screen/welcome';
+import RootNavigation from './src/Navigation/RootNavigation'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Index /> */}
-      <Welcome/>
+      <RootNavigation />
     </View>
 
 
